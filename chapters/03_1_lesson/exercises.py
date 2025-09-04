@@ -4,22 +4,59 @@
 
 print("********** Ch 3 Exercise 1 **********")
 
-# Do your work for Exercise 1 here
+def right_justify(input):
+    """(prints the length of the input, then 70 spaces, followed by input)\n
+    input: takes input"""
+    l = len(input)
+    print("l =", l)
+    target = 143
+    spaces = target - l
+    space_string = ' '*spaces
+    print(space_string + input)
 
-print("Ch 3 Exercise 1: Not implemented") # Delete this line when you write your code!
-
+right_justify("monty")
 
 
 print("********** Ch 3 Exercise 2 **********")
 
-# Do your work for Excercise 2 here.
+def print_spam():
+    print('spam')
 
-print("Ch 3 Exercise 2: Not implemented") # Delete this line when you write your code!
+def do_twice(func, arg):
+    func(arg)
+    func(arg)
 
+
+def print_twice(arg):
+    print(arg)
+    print(arg)
+
+
+def do_four(func, arg):
+    do_twice(func, arg)
+    do_twice(func, arg)
+
+
+do_twice(print, 'spam')
+print('')
+
+do_four(print, 'spam')
 
 
 print("********** Ch 3 Exercise 3 **********")
 
-# Do your work for Exercise 3 here.
 
-print("Ch 3 Exercise 3: Not implemented") # Delete this line when you write your code!
+def grid():
+    print("""+ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - + """)
+
+grid()
