@@ -1,35 +1,25 @@
 
-##### Template for Homework 1, exercises 1.2-1.5 ######
+##### Template for Homework 1, Exercises 1-3 ######
 
 
-print("********** Exercise 1.2 **********")
+print("********** Homework 1 Exercise 1 **********")
 
-# Do your work for Exercise 1.2 here
+# Do your work for Exercise 1 here
 
-print("Exercise 1.2: Not implemented") # Delete this line when you write your code!
-
-
-
-print("********** Exercise 1.3 **********")
-
-# Do your work for Excercise 1.3 here. Hint - how many different
-# variables will you need?
-
-print("Exercise 1.3: Not implemented") # Delete this line when you write your code!
+print("Homework 1 Exercise 1: Not implemented") # Delete this line when you write your code!
 
 
 
-print("********** Exercise 1.4 **********")
-print("********* Part II *************")
+print("********** Homework 1 Exercise 2 **********")
 
-print("Exercise 1.4 Part II: Not implemented") # Delete this line when you write your code!
+# Do your work for Excercise 2 here
 
-print("********* Part III *************")
-
-print("Exercise 1.4 Part III: Not implemented") # Delete this line when you write your code!
+print("Homework 1 Exercise 2: Not implemented") # Delete this line when you write your code!
 
 
 
-print("********** Exercise 1.5 **********")
+print("********** Homework 1 Exercise 3 **********")
 
-print("Exercise 1.5: Not implemented") # Delete this line when you write your code!
+# Do your work for Excercise 3 here
+
+print("Homework 1 Exercise 3: Not implemented") # Delete this line when you write your code!

@@ -1,5 +1,11 @@
 # 6.189 Lecture 2
 # conditional_examples.py
+ 
+##### Instructions #####
+# Run this program and inspect the output.  Inspect the sections.  
+# Make sure you understand how they work.  You can change "True" to "False"
+# to disable sections and focus on others.
+
 
 # Boolean math
 

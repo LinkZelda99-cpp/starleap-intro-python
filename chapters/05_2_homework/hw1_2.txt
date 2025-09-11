@@ -1,5 +1,9 @@
 ######################################################################
 Homework 1 - Written Exercises
+
+### Instructions ###
+Type your answers directly into this file.
+
 ######################################################################
 
 ######################################################################
@@ -129,66 +133,5 @@ code. It is an important skill to be able to understand what a piece of code doe
 
 
 5. location = "California", pay = 25000
-
-
-
-######################################################################
-# Exercise 1.14 – Understanding loops
-For each of the following fragments of code, write what the output would be. Again, do this without running the
-code (although feel free to check yourself when you’re done).
-
-1.
-    num = 10
-    while num > 3:
-        print num
-        num = num - 1
-
-
-2.
-    divisor = 2
-    for i in range(0, 10, 2):
-        print i/divisor
-
-
-
-3.
-    num = 10
-    while True:
-        if num < 7:
-            break
-        print num
-        num -= 1
-
-
-
-4.
-    count = 0
-    for letter in ’Snow!’:
-        print ’Letter #’, count, ’is’, letter
-        count += 1
-
-
-
-
-######################################################################
-# Exercise 1.15 – Buggy loop (aka Find The Bug!)
-Consider the following program that Ben Bitdiddle handed in to the course staff (again, try to do this exercise without running the code in IDLE!):
-
-n = 10
-i = 10
-
-while i > 0:
-    print i
-    if i % 2 == 0:
-        i = i / 2
-    else:
-        i = i + 1
-
-What do you think this code is doing? Without comments it is hard to guess what Ben’s intention was (*cough* this is why the staff loves to look at commented code!!), so read through it and make a sensible guess as to what it is doing. There are a lot of mistakes in the code so your guess is as good as ours!
-
-1. (On paper or typed) - Draw a table that shows the value of the variables n and i during the execution of the program. Your table should contain two columns (one for each variable) and one row for each iteration. For each row in the table, write down the values of the variables as they would be at the line containing the print statement.
-
-
-2. Ben made a lot of mistakes. State what you think Ben was trying to do and suggest one or more ways he could fix his code (there’s a few good answers for this depending on what you think the code should be doing).
 
 

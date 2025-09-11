@@ -7,7 +7,10 @@ The time module provides a function, also named time, that returns the current G
 >>> time.time()
 1437746094.5735958
 ```
-Write a script that reads the current time and converts it to a time of day in hours, minutes, and seconds, plus the number of days since the epoch.
+Write a function named *time_since_epoch* that reads the current time and converts it to a time of day in hours, minutes, and seconds, plus the number of days since the epoch and prints "It's been __ days, __ hours, __ minutes, __ seconds since the epoch."
+Hints:
+ - Review [5.1 Floor division and modulus operators](https://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec55)
+ - It might be helpful to use variables like sec_per_day to help calculate and store the number of seconds in a day, etc.
 
 ## Exercise 2  
 Fermat’s Last Theorem says that there are no positive integers a, b, and c such that
@@ -39,9 +42,19 @@ def recurse(n, s):
 
 recurse(3, 0)
 ```
+Hint: Use triple quotes in python to enclose long sections of text to type this answer.
+Ex:
+```
+print("********** Ch 5 Exercise 4 **********")
+
+answer = """
+This is my big, typed answer to Exercise 4.
+It can span multiple lines, and the python interpreter does not try to execute it because it is a big string.
+"""
+print(answer)
+```
 What would happen if you called this function like this: recurse(-1, 0)?
 Write a docstring that explains everything someone would need to know in order to use this function (and nothing else).
-The following exercises use the turtle module, described in Chapter 4:
 
 ## Exercises 5-6
-* Skip for now.  We will do these after going back and covering Chapter 4. *
+* Skip for now.  We will do these after going back and covering Chapter 4.
