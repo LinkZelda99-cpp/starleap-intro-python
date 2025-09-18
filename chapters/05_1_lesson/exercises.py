@@ -97,7 +97,13 @@ except ValueError:
 
 
 print("********** Ch 5 Exercise 4 **********")
+def recurse(n, s):
+    if n == 0:
+        print(s)
+    else:
+        recurse(n-1, n+s)
 
-# Do your work for Exercise 4 here.
-
-print("Ch 5 Exercise 4: Not implemented") # Delete this line when you write your code!
+recurse(3, 0)
+answer = """
+The output will be: If n = 0, print s. If n is not 0, it will call recurse with n-1 and n+s. The output will be different based on the initial value of n and s."""
+print(answer)
