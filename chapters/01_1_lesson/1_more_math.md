@@ -38,3 +38,6 @@ Use the Terminal to calculate:
 Recall:
 a*x^2 + b*x + c
 x1 = ( - b + sqrt ( b*b - 4*a*c ) ) / ( 2*a)
+
+
+#Hello!
