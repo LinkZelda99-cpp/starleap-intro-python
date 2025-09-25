@@ -1,5 +1,7 @@
 # Course-specific
 test_results*
+test_play.py
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
