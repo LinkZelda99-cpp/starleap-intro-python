@@ -31,7 +31,14 @@ str(year)
 print(first_name, last_name, "was born on", month, day, year + ".")
 
 print("********** Homework 1 Exercise 3 **********")
-
-
-
-print("Homework 1 Exercise 3: Not implemented") # Delete this line when you write your code!
+import math
+def square_root():
+    print("Enter a number to find the square root of: ")
+    a = float(input())
+    if a < 0:
+        return "Error: Cannot compute square root of negative number."
+    else:
+      b = math.sqrt(a) 
+      print("The square root of", a, "is", b)
+        
+square_root()
