@@ -1,6 +1,6 @@
 
 # Reading: Chapter 8 - Strings
-- **Link**: [Chapter 8: Strings](https://greenteapress.com/thinkpython2/html/thinkpython2008.html)
+- **Link**: [Chapter 8: Strings](https://greenteapress.com/thinkpython2/html/thinkpython2009.html)
   - 8.1 A string is a sequence
   - 8.2 len
   - 8.3 Traversal with a for loop
