@@ -13,7 +13,7 @@ All right, I’ll stop now.
 
 Write a function called has_no_e that returns True if the given word doesn’t have the letter “e” in it.
 
-Write a program that reads words.txt and prints only the words that have no “e”. Compute the percentage of words in the list that have no “e”.
+Write a program that reads shared/words.txt and prints only the words that have no “e”. Compute the percentage of words in the list that have no “e”.
 
 ## Exercise 3  
 Write a function named avoids that takes a word and a string of forbidden letters, and that returns True if the word doesn’t use any of the forbidden letters.
