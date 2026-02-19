@@ -4,21 +4,23 @@
 # The program should tell the user how many guesses it took to guess the number.
 
 import random
-
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 
 def get_number_feedback():
-    # TODO: Implement this function
-    pass
+    answer = ''
+    while answer != "h" and answer != "l" and answer != "c":
+        answer = input("Is my guess too high (h), too low (l), or correct (c)? ").lower()
+    return answer
 
 
 def get_number():
-    # TODO: Implement this function
-    pass
+   return(MIN_NUMBER + MAX_NUMBER) // 2
 
 
 def play_guesser():
-    MIN_NUMBER = 1
-    MAX_NUMBER = 100
+    global MIN_NUMBER = 1
+    globalMAX_NUMBER = 100
     print('-' * 60)
     print()
     print(f"Think of a number between {MIN_NUMBER} and {MAX_NUMBER} (inclusive).")
