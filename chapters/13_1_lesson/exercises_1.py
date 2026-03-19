@@ -1,3 +1,19 @@
+import random
+def sort(num_list):
+    for i in range(len(num)-1):
+        print(num[i], num[i+1])
+        if num[i]>num[i+1]:
+            c = num[i]
+            num[i] = num[i+1]
+            num[i+1] = c
+        print(i)
+        print(num)
+num = [11,45,65,23,63,24]
+number = 0
+# while number < 4:
+#     sort(num)
+#     number += 1
+
 import string
 from operator import itemgetter
 word_list = ['']
@@ -20,7 +36,7 @@ def moby_remove_whitespaces_punctuation(fin):
           if w not in d:
              d[w] = 1
           else:
-                d[w] += 1
+             d[w] += 1
         # print(d)
     return d
       #  for w in words:
@@ -39,5 +55,7 @@ d = moby_remove_whitespaces_punctuation(open(f_name))
 # print(string.punctuation)
 # for k, v in d.items():
     # print(f"{k} {v}")
-sv = dict(sorted(d.items(), key=itemgetter(1)))
+# sv = dict()
+# sv = dict(sorted(d.items(), key=itemgetter(1)))
+sv = dict(int(sort(d)))
 print(sv)
