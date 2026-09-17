@@ -23,13 +23,13 @@ def wordle():
         for i in range(5):
             if guess[i] == wordle[i]:
                 result[i] = "green"
-                leftover[i] = None
+                leftover[i] = None # type: ignore
 
         for i in range(5):
             if result[i] == "":
                 if guess[i] in leftover:
                     result[i] = "yellow"
-                    leftover[leftover.index(guess[i])] = None
+                    leftover[leftover.index(guess[i])] = None # type: ignore
                 else:
                     result[i] = "gray"
 
